@@ -1,5 +1,4 @@
-﻿using FussballProj.Core;
-using FussballProj.Core.ViewModels;
+﻿using FussballProj.Core.ViewModels;
 
 
 namespace FussballProj
@@ -10,6 +9,7 @@ namespace FussballProj
         public MainPage(MainViewModel viewModel)
         {
             InitializeComponent();
+            this.BindingContext  = viewModel;
         }
 
     }

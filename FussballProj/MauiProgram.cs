@@ -1,9 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
-using FussballProj.Services;
-using FussballProj.Core.Services;
 using CommunityToolkit.Maui;
 using FussballProj.Lib;
-using FussballProj.Core;
 using FussballProj.Pages;
 using FussballProj.Core.ViewModels;
 

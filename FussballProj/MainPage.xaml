@@ -4,6 +4,6 @@
              Shell.NavBarIsVisible="False"
              x:Class="FussballProj.MainPage">
 
-    
+    <Grid></Grid>
     
 </ContentPage>
