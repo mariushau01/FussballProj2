@@ -20,7 +20,7 @@ namespace FussballProj
             });
 
             builder.Services.AddSingleton<MainViewModel>();
-            builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddSingleton<MainPage>();    
             string path = FileSystem.Current.AppDataDirectory;
             string filename = "data.sqlite";
             string fullpath = System.IO.Path.Combine(path, filename);
